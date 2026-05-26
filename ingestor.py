@@ -6,8 +6,8 @@ from transformers import pipeline
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 DATABASE_URL = os.getenv("DATABASE_URL")
 TOPICS = ["Strait of Hormuz", 
-    "AI Chip Export", 
-    "Global Inflation AI Impact"]
+    "AI Semiconductor", 
+    "Global Inflation"]
 
 def fetch_and_save():
     print("📦 Loading FinBERT AI Model...")
